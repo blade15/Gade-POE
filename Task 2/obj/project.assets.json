@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\we work here\\Task 2\\Task 1.csproj",
+      "projectUniqueName": "C:\\Users\\Olwethu\\Documents\\GitHub\\Gade-POE\\Task 2\\Task 1.csproj",
       "projectName": "Task 1",
-      "projectPath": "D:\\we work here\\Task 2\\Task 1.csproj",
+      "projectPath": "C:\\Users\\Olwethu\\Documents\\GitHub\\Gade-POE\\Task 2\\Task 1.csproj",
       "packagesPath": "C:\\Users\\Olwethu\\.nuget\\packages\\",
-      "outputPath": "D:\\we work here\\Task 2\\obj\\",
+      "outputPath": "C:\\Users\\Olwethu\\Documents\\GitHub\\Gade-POE\\Task 2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

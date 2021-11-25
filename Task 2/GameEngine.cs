@@ -14,7 +14,7 @@ namespace Task_1
         //public get accessor
          public Map GetMap
         {
-             //constructor that creates a map object with sensible values
+            //constructor that creates a map object with sensible values
             get { return game_map; }
             set { game_map = value; }
         }

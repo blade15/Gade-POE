@@ -11,7 +11,7 @@ namespace Task_1
     {
         //Public enum called "TileType" defining the type of tile being set
         //Either a hero, enemy, gold, or weopon
-       
+        
 
         //Protected member variables
         protected int X;
@@ -35,15 +35,22 @@ namespace Task_1
           set { X = value; }
         }
        
-        public int getY { set { Y = value; } get { return Y; } }
+        public int getY 
+        { 
+            set { Y = value; } 
+            get { return Y; }
+        }
         
-        public char getsymbol{ set { Symbol = value; } get { return Symbol; } }
+        public char getsymbol
+        {
+            set { Symbol = value; }
+            get { return Symbol; }
+        }
 
         public TileType GetTileType
         {
             set { TypeOfTile = value; }
             get { return TypeOfTile; }
-
         }
         //Public enum called "TileType" defining the type of tile being set
         //Either a hero, enemy, gold, or weopon

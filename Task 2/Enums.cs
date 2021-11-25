@@ -21,4 +21,10 @@ namespace Task_1
         Left,
         Right
     }
+
+    public enum Types
+    {
+        Dagger,
+        Long_Sword
+    }
 }
