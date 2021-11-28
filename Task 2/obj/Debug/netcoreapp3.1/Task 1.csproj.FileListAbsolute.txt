@@ -53,3 +53,10 @@ C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1
 C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
 C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.dll
 C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.exe
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.deps.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache

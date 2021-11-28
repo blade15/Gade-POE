@@ -10,7 +10,8 @@ namespace Task_1
         Enemy,
         Gold,
         Barrier,
-        Empty
+        Empty,
+        Weapon
     }
 
     public enum movementEnum
@@ -25,6 +26,8 @@ namespace Task_1
     public enum Types
     {
         Dagger,
-        Long_Sword
+        Long_Sword,
+        Rifle,
+        Longbow
     }
 }

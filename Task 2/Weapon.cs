@@ -39,7 +39,7 @@ namespace Task_1
             set { weapon_type = value; }
         }
 
-        public Weapon(int x, int y , TileType tile_type, char symbol) : base(x = 0,y = 0,tile_type,symbol)
+        public Weapon(char symbol, int x = 0, int y = 0 ): base(x,y, TileType.Weapon,symbol)
         {
 
         }
