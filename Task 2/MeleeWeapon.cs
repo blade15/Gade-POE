@@ -19,7 +19,6 @@ namespace Task_1
                 getDurability = 10;
                 getDamage = 3;
                 getCost = 3;
-
             }
 
             if(types == Types.Long_Sword)
