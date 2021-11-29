@@ -12,7 +12,7 @@ namespace Task_1
 
         //constructor that receives x and y positions, enemys damage, starting HP
         //sends data of positions to character subclass through a constructor initialiser
-        public  Enemy(int x, int y,TileType tile_type, char symbol, int dmg, int EnemyHP,int MaxEnemyHP) : base(x, y, tile_type, symbol,dmg, EnemyHP, MaxEnemyHP,0)
+        public  Enemy(int x, int y,TileType tile_type, char symbol,int EnemyHP,int MaxEnemyHP, double dmg) : base(x, y, tile_type, symbol,EnemyHP,MaxEnemyHP,dmg,0)
         {
             Damage = dmg;
             MaxHP = MaxEnemyHP;

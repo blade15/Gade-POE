@@ -9,14 +9,14 @@ namespace Task_1
      abstract class Character:Tile
     {
         //Protected member variables
-        protected int HP;
+        protected double HP;
         protected int MaxHP;
-        protected int Damage;
+        protected double Damage;
         protected int Purse;
         public Tile [] tilevision = new Tile[4];
 
         //public accessor that gets the health
-        public int gethp
+        public double gethp
         {
             get { return HP;}
             set { HP = value; }
@@ -30,7 +30,7 @@ namespace Task_1
         }
 
          //public accessor that gets the damage amount
-        public int getdamage
+        public double getdamage
         {
             get { return Damage; }
             set { Damage = value; }
@@ -43,7 +43,7 @@ namespace Task_1
             set { Purse = value; }
         }
 
-        public Character(int x, int y, TileType tile_type, char symbol, int hp,int maxhp, int damage,int purse): base(x, y,tile_type,symbol)
+        public Character(int x, int y, TileType tile_type, char symbol, int hp,int maxhp, double damage,int purse): base(x, y,tile_type,symbol)
         {
             Symbol = symbol;
             HP = hp;
@@ -76,7 +76,7 @@ namespace Task_1
 
 
         //Public virtual bool
-        public virtual bool checkrange(Character Target)
+        public  virtual bool checkrange(Character Target)
         {
             if (DistanceTo(Target) > 1 || DistanceTo(Target) == 0)
             {
@@ -86,6 +86,7 @@ namespace Task_1
             {
                 return true;
             }
+         
         }
 
         //Private integer method called "DistanceTo"

@@ -47,7 +47,6 @@ namespace Task_1
         private void button1_Click(object sender, EventArgs e)
         {
             game.MovePlayer(movementEnum.Up);
-
             game.GetMap.UpdateGame();
             game.MoveEnemies(movementEnum.NoMovement);
             fillEnemyBox();

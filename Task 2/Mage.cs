@@ -8,7 +8,7 @@ namespace Task_1
     //A new type of enemy
     class Mage : Enemy 
     {
-        public Mage(int x, int y, TileType tile_type) : base(x, y, tile_type, 'M', 1, 5, 5)
+        public Mage(int x, int y, TileType tile_type) : base(x, y, tile_type, 'M', 5, 5, 2.5)
         {
              //constructor that receives x and y positions but takes variables through to Enemy class
              //Mage = 5HP
@@ -20,7 +20,7 @@ namespace Task_1
         {
             //Mages attack all characters within a one block radius all around them
             //checking all ranges until it's own overridden CheckRange()
-            if(Target.getX == X - 1 && Target.getY == Y - 1)
+            if (Target.getX == X - 1 && Target.getY == Y - 1)
             {
                 //returns true if enemy is in a one block radius from the Mage's x and y position
                 return true;
@@ -53,7 +53,7 @@ namespace Task_1
             {
                 return true;
             }
-            else if (Target.getX == X  && Target.getY == Y - 1)
+            else if (Target.getX == X && Target.getY == Y - 1)
             {
                 return true;
             }

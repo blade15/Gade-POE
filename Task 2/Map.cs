@@ -15,7 +15,6 @@ namespace Task_1
             get { return map; }
             set { map = value; }
         }
-
         private Hero Player;
         public Hero GetPlayer
         {
@@ -129,8 +128,6 @@ namespace Task_1
                 }
             }
         }
-
-
 
         private void Addgold()
         {

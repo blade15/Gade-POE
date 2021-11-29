@@ -4,22 +4,24 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.5 concrete Goblin class that inherits from Enemy
-    class Goblin : Enemy
+    class Leader:Enemy
     {
+        private Tile Target;
 
-        public Goblin(int x, int y, TileType tile_type) : base(x, y, tile_type, 'G',10,10,1)
+        public Tile getTarget
         {
-            //constructor that receives x and y positions and takes through to enemy class
-            //Parameters include
-            //Goblin = 10HP
-            //Goblin = 1 damage
+            get { return Target; }
+            set { Target = value; }
         }
-        
-        //overridden ReturnMove() method that does not use optional movement parameter
+
+        public Leader(int x,int y): base(x, y, TileType.Enemy, 'L', 2, 20, 20)
+        {
+
+        }
+
         public override movementEnum ReturnMove(movementEnum move = movementEnum.NoMovement)
         {
-        
+
             //Randomises a direction for goblin to move to
             int random_tile = rnd.Next(0, tilevision.Length);
             while (tilevision[random_tile].GetType() != typeof(EmptyTile))
@@ -39,6 +41,11 @@ namespace Task_1
                 default:
                     return movementEnum.NoMovement;
             }
+        }
+
+        public override string ToString()
+        {
+            return "";
         }
     }
 }
