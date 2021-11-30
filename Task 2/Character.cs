@@ -9,14 +9,14 @@ namespace Task_1
      abstract class Character:Tile
     {
         //Protected member variables
-        protected double HP;
+        protected int HP;
         protected int MaxHP;
-        protected double Damage;
+        protected int Damage;
         protected int Purse;
         public Tile [] tilevision = new Tile[4];
 
         //public accessor that gets the health
-        public double gethp
+        public int gethp
         {
             get { return HP;}
             set { HP = value; }
@@ -30,7 +30,7 @@ namespace Task_1
         }
 
          //public accessor that gets the damage amount
-        public double getdamage
+        public int getdamage
         {
             get { return Damage; }
             set { Damage = value; }
@@ -43,7 +43,7 @@ namespace Task_1
             set { Purse = value; }
         }
 
-        public Character(int x, int y, TileType tile_type, char symbol, int hp,int maxhp, double damage,int purse): base(x, y,tile_type,symbol)
+        public Character(int x, int y, TileType tile_type, char symbol, int hp,int maxhp, int damage,int purse): base(x, y,tile_type,symbol)
         {
             Symbol = symbol;
             HP = hp;

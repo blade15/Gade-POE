@@ -60,7 +60,6 @@ namespace Task_1
             {
                 game_map.GetEnemies[i].Move(game_map.GetEnemies[i].ReturnMove(movement));
             }
-            EnemyAttack();
         }
 
         public string PlayerAttack(int Enemy)
@@ -99,9 +98,9 @@ namespace Task_1
                 switch (game_map.GetEnemies[i].getsymbol)
                 {
                     case 'G':
-                        foreach (Tile T in game_map.GetEnemies[i].tilevision)
+                        for (int w = 0; w < game_map.GetEnemies[i].tilevision.Length; w++)
                         {
-                            if (T.getX == game_map.GetPlayer.getX && (T.getY == game_map.GetPlayer.getY))
+                            if (game_map.GetEnemies[i].tilevision[w].getX == game_map.GetPlayer.getX && game_map.GetEnemies[i].tilevision[w].getY == game_map.GetPlayer.getY)
                             {
                                 game_map.GetEnemies[i].attack(game_map.GetPlayer);
                             }
