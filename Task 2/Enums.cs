@@ -11,7 +11,10 @@ namespace Task_1
         Gold,
         Barrier,
         Empty,
-        Weapon
+        Weapon,
+        goblin,
+        mage,
+        leader
     }
 
     public enum movementEnum

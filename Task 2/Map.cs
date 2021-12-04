@@ -75,9 +75,25 @@ namespace Task_1
             //Q3.1
             for (int i = 0; i < enemies.Length; i++)
             {
-                enemies[i] = (Enemy)Create(TileType.Enemy);
+                int rndenemies = rnd.Next(0,3);
+                if(rndenemies == 0)
+                {
+                enemies[i] = (Enemy)Create(TileType.leader);
                 map[enemies[i].getX, enemies[i].getY] = enemies[i];
+                }
+
+               else if (rndenemies == 1)
+                {
+                    enemies[i] = (Enemy)Create(TileType.goblin);
+                    map[enemies[i].getX, enemies[i].getY] = enemies[i];
+                }
+                else if (rndenemies == 2)
+                {
+                    enemies[i] = (Enemy)Create(TileType.mage);
+                    map[enemies[i].getX, enemies[i].getY] = enemies[i];
+                }
             }
+
             for (int z = 0; z < items.Length; z++)
             {
                 items[z] = (Item)Create(TileType.Gold);
@@ -159,8 +175,8 @@ namespace Task_1
             //returns item if it exists else if item doesnt exist, returns null
             return output;
         }
-        
-        private Tile Create(TileType tileType,int x = 0, int y = 0)
+
+        private Tile Create(TileType tileType, int x = 0, int y = 0)
         {
 
             switch (tileType)
@@ -168,32 +184,46 @@ namespace Task_1
                 case TileType.Hero:
                     int HeroX = rnd.Next(0, mapwidth);
                     int HeroY = rnd.Next(0, mapheight);
-                    while( map[HeroX,HeroY].GetType() != typeof(EmptyTile))
+                    while (map[HeroX, HeroY].GetType() != typeof(EmptyTile))
                     {
-                         HeroX = rnd.Next(0, mapwidth);
-                         HeroY = rnd.Next(0, mapheight);
+                        HeroX = rnd.Next(0, mapwidth);
+                        HeroY = rnd.Next(0, mapheight);
                     }
                     return new Hero(HeroX, HeroY, tileType);
 
-                case TileType.Enemy:
-                    int determine_enemy = rnd.Next(0,2);
-                    int EnemyX = rnd.Next(0, mapwidth);
-                    int EnemyY = rnd.Next(0, mapheight);
+                case TileType.leader:
+                    int LeaderX = rnd.Next(0, mapwidth);
+                    int LeaderY = rnd.Next(0, mapheight);
 
-                    while (map[EnemyX, EnemyY].GetType() != typeof(EmptyTile))
+                    while (map[LeaderX, LeaderY].GetType() != typeof(EmptyTile))
                     {
-                        EnemyX = rnd.Next(0, mapwidth);
-                        EnemyY = rnd.Next(0, mapheight);
+                        LeaderX = rnd.Next(0, mapwidth);
+                        LeaderY = rnd.Next(0, mapheight);
                     }
+                    return new Leader(LeaderX, LeaderY, tileType);
 
-                    if (determine_enemy == 0)
+                case TileType.goblin:
+                    int GoblinX = rnd.Next(0, mapwidth);
+                    int GoblinY = rnd.Next(0, mapheight);
+
+                    while (map[GoblinX, GoblinY].GetType() != typeof(EmptyTile))
                     {
-                        return new Goblin(EnemyX, EnemyY, tileType);
+                        GoblinX = rnd.Next(0, mapwidth);
+                        GoblinY = rnd.Next(0, mapheight);
                     }
-                    else
+                    return new Goblin(GoblinX, GoblinY, tileType);
+
+                case TileType.mage:
+                    int MageX = rnd.Next(0, mapwidth);
+                    int MageY = rnd.Next(0, mapheight);
+
+                    while (map[MageX, MageY].GetType() != typeof(EmptyTile))
                     {
-                        return new Mage(EnemyX, EnemyY, tileType);
+                        MageX = rnd.Next(0, mapwidth);
+                        MageY = rnd.Next(0, mapheight);
                     }
+                    return new Mage(MageX, MageY, tileType);
+
 
 
                 case TileType.Gold:
@@ -206,6 +236,8 @@ namespace Task_1
                         ItemY = rnd.Next(0, mapheight);
                     }
                     return new Gold(ItemX, ItemY, tileType);
+
+                    case
 
                 default:
                     return null;

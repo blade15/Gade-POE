@@ -11,6 +11,7 @@ namespace Task_1
     {
         //Q3.3 private map variable
         private Map game_map;
+        private Shop shop;
         //public get accessor
          public Map GetMap
         {
@@ -21,7 +22,8 @@ namespace Task_1
         
        public  GameEngine()
         {
-            game_map = new Map(10, 10, 15, 15, 3,2);
+            game_map = new Map(10, 10, 15, 15, 6,2);
+            shop = new Shop(game_map.GetPlayer);
         }
 
         //Q3.3 Allows player to move a space if the move is valid
@@ -82,6 +84,7 @@ namespace Task_1
                 return "You did attack "+game_map.GetPlayer.getdamage+" damage to a "+game_map.GetEnemies[Enemy].GetType().Name
                 +" they now have " + game_map.GetEnemies[Enemy].gethp + " HP";
             }
+
             else
             {
                 return "Target was not in range";
@@ -97,15 +100,7 @@ namespace Task_1
                 
                 switch (game_map.GetEnemies[i].getsymbol)
                 {
-                    case 'G':
-                        for (int w = 0; w < game_map.GetEnemies[i].tilevision.Length; w++)
-                        {
-                            if (game_map.GetEnemies[i].tilevision[w].getX == game_map.GetPlayer.getX && game_map.GetEnemies[i].tilevision[w].getY == game_map.GetPlayer.getY)
-                            {
-                                game_map.GetEnemies[i].attack(game_map.GetPlayer);
-                            }
-                        }
-                        break;
+                    
 
                     case 'M':
                         if(game_map.GetEnemies[i].checkrange(game_map.GetPlayer) == true)
@@ -113,6 +108,15 @@ namespace Task_1
                             game_map.GetEnemies[i].attack(game_map.GetPlayer);
                         }
                         
+                        break;
+                    default:
+                        for (int w = 0; w < game_map.GetEnemies[i].tilevision.Length; w++)
+                        {
+                            if (game_map.GetEnemies[i].tilevision[w].getX == game_map.GetPlayer.getX && game_map.GetEnemies[i].tilevision[w].getY == game_map.GetPlayer.getY)
+                            {
+                                game_map.GetEnemies[i].attack(game_map.GetPlayer);
+                            }
+                        }
                         break;
                 }
             }
@@ -184,7 +188,6 @@ namespace Task_1
             return Text;
 
         }
-
         public override string ToString()
         {
            return game_map.DrawMap();

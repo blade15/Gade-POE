@@ -41,8 +41,15 @@ namespace Task_1
             this.rchtTxtBxLog = new System.Windows.Forms.RichTextBox();
             this.rchTxtBxEnemyStats = new System.Windows.Forms.RichTextBox();
             this.lblMap = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.grpBxStats.SuspendLayout();
             this.grpBxAttack.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // bttnUp
@@ -186,12 +193,72 @@ namespace Task_1
             this.lblMap.TabIndex = 5;
             this.lblMap.Text = "XXXXXXXXXX";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Location = new System.Drawing.Point(761, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(282, 366);
+            this.groupBox1.TabIndex = 6;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(154, 402);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(285, 402);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(94, 29);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(60, 58);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(144, 58);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(60, 173);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(144, 58);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(60, 262);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(144, 58);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // frmUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Task_1.Properties.Resources.Background2;
-            this.ClientSize = new System.Drawing.Size(774, 562);
+            this.ClientSize = new System.Drawing.Size(1055, 562);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblMap);
             this.Controls.Add(this.grpBxStats);
             this.Controls.Add(this.bttnLeft);
@@ -203,6 +270,7 @@ namespace Task_1
             this.Load += new System.EventHandler(this.PlayerUI_Load);
             this.grpBxStats.ResumeLayout(false);
             this.grpBxAttack.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,5 +290,11 @@ namespace Task_1
         private System.Windows.Forms.RichTextBox rchTxtBxEnemyStats;
         private System.Windows.Forms.Label lblMap;
         private System.Windows.Forms.ComboBox EnemycomboBox;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
