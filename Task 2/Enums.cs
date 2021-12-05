@@ -35,7 +35,7 @@ namespace Task_1
         Dagger,
         Long_Sword,
         Rifle,
-        Longbow
-
+        Longbow,
+        Barehands
     }
 }

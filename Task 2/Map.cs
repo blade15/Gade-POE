@@ -199,12 +199,11 @@ namespace Task_1
             Item output = null;
             for (int i = 0; i < items.Length; i++)
             {
-                if(x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Gold)
+                if(x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Gold || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Dagger || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Longbow || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Long_Sword || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Rifle)
                 {
                     output = items[i];
                     items[i] = null;
                     items = items.Where(i => i != null).ToArray();
-                    
                 }
             }
             //returns item if it exists else if item doesnt exist, returns null

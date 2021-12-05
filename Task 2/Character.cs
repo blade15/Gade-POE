@@ -137,7 +137,7 @@ namespace Task_1
                 Gold gold = (Gold)i;
                 Purse = Purse + gold.Getamount;
             }
-            else
+            if(i.getsymbol == 'W')
             {
                 Equip((Weapon)i);
             }

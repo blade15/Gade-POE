@@ -156,7 +156,7 @@ namespace Task_1
             this.bttnAttack.ForeColor = System.Drawing.SystemColors.Window;
             this.bttnAttack.Location = new System.Drawing.Point(6, 73);
             this.bttnAttack.Name = "bttnAttack";
-            this.bttnAttack.Size = new System.Drawing.Size(296, 29);
+            this.bttnAttack.Size = new System.Drawing.Size(300, 29);
             this.bttnAttack.TabIndex = 4;
             this.bttnAttack.Text = "ATTACK";
             this.bttnAttack.UseVisualStyleBackColor = false;
@@ -165,7 +165,7 @@ namespace Task_1
             // rchtTxtBxLog
             // 
             this.rchtTxtBxLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(228)))), ((int)(((byte)(204)))));
-            this.rchtTxtBxLog.Location = new System.Drawing.Point(6, 109);
+            this.rchtTxtBxLog.Location = new System.Drawing.Point(6, 108);
             this.rchtTxtBxLog.Name = "rchtTxtBxLog";
             this.rchtTxtBxLog.Size = new System.Drawing.Size(300, 92);
             this.rchtTxtBxLog.TabIndex = 3;

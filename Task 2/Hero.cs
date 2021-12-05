@@ -9,9 +9,9 @@ namespace Task_1
     {
         public Hero(int x, int y,TileType tile_type) :base(x, y, tile_type, 'H', 100, 100, 2,0)
         {
-            
-            //getweapon.getWeapon_type = "barehands";
-           //  getweapon.getRange = 1;
+
+            getweapon = new MeleeWeapon(Types.Barehands);
+            getdamage = getdamage + getweapon.getDamage;
         }
 
         bool checkvalidmove(movementEnum charactermove)
@@ -21,28 +21,28 @@ namespace Task_1
             switch (charactermove)
             {
                 case movementEnum.Right:
-                        if(tilevision[2].GetType() == typeof(EmptyTile) || tilevision[2].GetType() == typeof(Item) ||  tilevision[2].GetType() == typeof(Gold))
+                        if(tilevision[2].GetType() == typeof(EmptyTile) || tilevision[2].GetType() == typeof(Item) ||  tilevision[2].GetType() == typeof(Gold) || tilevision[2].GetType() == typeof(MeleeWeapon) || tilevision[2].GetType() == typeof(RangedWeapon))
                     {
                         valid = true;
                         break;
                     }
                     break;
                 case movementEnum.Left:
-                    if (tilevision[3].GetType() == typeof(EmptyTile) || tilevision[3].GetType() == typeof(Item) || tilevision[3].GetType() == typeof(Gold))
+                    if (tilevision[3].GetType() == typeof(EmptyTile) || tilevision[3].GetType() == typeof(Item) || tilevision[3].GetType() == typeof(Gold) || tilevision[3].GetType() == typeof(MeleeWeapon) || tilevision[3].GetType() == typeof(RangedWeapon))
                     {
                         valid = true;
                         break;
                     }
                     break;
                 case movementEnum.Down:
-                    if (tilevision[1].GetType() == typeof(EmptyTile) || tilevision[1].GetType() == typeof(Item) || tilevision[1].GetType() == typeof(Gold))
+                    if (tilevision[1].GetType() == typeof(EmptyTile) || tilevision[1].GetType() == typeof(Item) || tilevision[1].GetType() == typeof(Gold) || tilevision[1].GetType() == typeof(MeleeWeapon) || tilevision[1].GetType() == typeof(RangedWeapon))
                     {
                         valid = true;
                         break;
                     }
                     break;
                 case movementEnum.Up:
-                    if (tilevision[0].GetType() == typeof(EmptyTile) || tilevision[0].GetType() == typeof(Item) || tilevision[0].GetType() == typeof(Gold))
+                    if (tilevision[0].GetType() == typeof(EmptyTile) || tilevision[0].GetType() == typeof(Item) || tilevision[0].GetType() == typeof(Gold) || tilevision[0].GetType() == typeof(MeleeWeapon) || tilevision[0].GetType() == typeof(RangedWeapon))
                     {
                         valid = true;
                         break;
@@ -68,7 +68,7 @@ namespace Task_1
         public override string ToString()
         {
             //Q3.2 Display the gold amount in the Stats display section
-            return "Player Stats:" + '\n' + "HP: " + HP + "/ "+ MaxHP+ '\n'+ /*"Current Weapon: "+ getweapon.getWeapon_type+'\n'+ "Weapon Range: "+getweapon.getRange+'\n' +*/ "Weapon Damage: " + Damage + '\n' + "[" + X + "," + Y + "] "+ getpurse +" Gold";
+            return "Player Stats:" + '\n' + "HP: " + HP + "/ "+ MaxHP+ '\n'+ "Current Weapon: "+ getweapon.getWeapon_type+'\n'+ "Weapon Range: "+getweapon.getRange+'\n' + "Weapon Damage: " + Damage +'\n'+"Weapon Durability: "+getweapon.getDurability +'\n' + "[" + X + "," + Y + "] "+ getpurse +" Gold";
         }
     }
 }
