@@ -14,7 +14,11 @@ namespace Task_1
         Weapon,
         goblin,
         mage,
-        leader
+        leader,
+        Dagger,
+        Long_Sword,
+        Rifle,
+        Longbow
     }
 
     public enum movementEnum

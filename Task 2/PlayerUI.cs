@@ -48,50 +48,31 @@ namespace Task_1
         {
             
             game.MovePlayer(movementEnum.Up);
-            game.GetMap.UpdateGame();
-            game.MoveEnemies(movementEnum.NoMovement);
-            game.GetMap.UpdateGame();
-            game.EnemyAttack();
-            game.GetMap.UpdateGame();
-            fillEnemyBox();
-            game.GetMap.UpdateGame();
-            lblMap.Text = game.ToString();
-            rchTxtStats.Text = game.GetMap.GetPlayer.ToString();
+            methods();
         }
 
         private void bttnDown_Click(object sender, EventArgs e)
         {
             
             game.MovePlayer(movementEnum.Down);
-            game.GetMap.UpdateGame();
-            game.MoveEnemies(movementEnum.NoMovement);
-            game.GetMap.UpdateGame();
-            game.EnemyAttack();
-            game.GetMap.UpdateGame();
-            fillEnemyBox();
-            game.GetMap.UpdateGame();
-            lblMap.Text = game.ToString();
-            rchTxtStats.Text = game.GetMap.GetPlayer.ToString();
+            methods();
         }
 
         private void bttnRight_Click(object sender, EventArgs e)
         {
             
             game.MovePlayer(movementEnum.Right);
-            game.GetMap.UpdateGame();
-            game.MoveEnemies(movementEnum.NoMovement);
-            game.GetMap.UpdateGame();
-            game.EnemyAttack();
-            game.GetMap.UpdateGame();
-            fillEnemyBox();
-            game.GetMap.UpdateGame();
-            lblMap.Text = game.ToString();
-            rchTxtStats.Text = game.GetMap.GetPlayer.ToString();
+            methods();
         }
 
         private void bttnLeft_Click(object sender, EventArgs e)
         {
             game.MovePlayer(movementEnum.Left);
+            methods();
+        }
+
+        private void methods()
+        {
             game.GetMap.UpdateGame();
             game.MoveEnemies(movementEnum.NoMovement);
             game.GetMap.UpdateGame();
@@ -102,7 +83,6 @@ namespace Task_1
             lblMap.Text = game.ToString();
             rchTxtStats.Text = game.GetMap.GetPlayer.ToString();
         }
-
         private void bttnAttack_Click(object sender, EventArgs e)
         {
             rchtTxtBxLog.Text = game.PlayerAttack(EnemycomboBox.SelectedIndex);

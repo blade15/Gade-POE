@@ -11,7 +11,7 @@ namespace Task_1
             get { return 1;}
         }
 
-        public MeleeWeapon(Types types,int x = 0,int y = 0): base('^',x, y)
+        public MeleeWeapon(Types types,int x = 0,int y = 0): base('W',x, y)
         {
         if(types == Types.Dagger)
             {
@@ -32,7 +32,7 @@ namespace Task_1
 
         public override string ToString()
         {
-            return "";
+            return getWeapon_type;
         }
     }
 }

@@ -22,7 +22,7 @@ namespace Task_1
         
        public  GameEngine()
         {
-            game_map = new Map(10, 10, 15, 15, 6,2);
+            game_map = new Map(10, 10, 15, 15, 6,2,2);
             shop = new Shop(game_map.GetPlayer);
         }
 

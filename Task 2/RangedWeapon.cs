@@ -11,7 +11,7 @@ namespace Task_1
             get { return Range;}
         }
 
-        public RangedWeapon(Types types, int x = 0, int y = 0) : base('*', x, y)
+        public RangedWeapon(Types types, int x = 0, int y = 0) : base('W', x, y)
         {
             if (types == Types.Rifle)
             {
@@ -33,7 +33,7 @@ namespace Task_1
         }
         public override string ToString()
         {
-            return "";
+            return getWeapon_type;
         }
     }
 }

@@ -57,7 +57,7 @@ namespace Task_1
         private Random rnd = new Random();
 
         //Deciding the map size through random rolls
-        public Map(int min_width,int max_width, int min_height, int max_height,int num_enemies,int num_items)
+        public Map(int min_width,int max_width, int min_height, int max_height,int num_enemies,int num_gold,int num_weapons)
         {
             mapwidth = rnd.Next(min_width, max_width+1);
             mapheight = rnd.Next(min_height, max_height+1);
@@ -65,7 +65,7 @@ namespace Task_1
             map = new Tile[mapwidth, mapheight];
 
             enemies = new Enemy[num_enemies];
-            items = new Item[num_items];
+            items = new Item[num_gold+num_weapons];
 
             generate_map();
 
@@ -94,11 +94,41 @@ namespace Task_1
                 }
             }
 
-            for (int z = 0; z < items.Length; z++)
+            for (int z = 0; z < num_gold+num_weapons; z++)
             {
-                items[z] = (Item)Create(TileType.Gold);
-                map[items[z].getX, items[z].getY] = items[z];
+                if(z < num_gold)
+                {
+                    items[z] = (Item)Create(TileType.Gold);
+                    map[items[z].getX, items[z].getY] = items[z];
+                }
+                else 
+                {
+                    int rndweapon = rnd.Next(4);
+                    if(rndweapon == 0)
+                    {
+                        items[z] = (Item)Create(TileType.Dagger);
+                        map[items[z].getX, items[z].getY] = items[z];
+                    }
+                    if (rndweapon == 1)
+                    {
+                        items[z] = (Item)Create(TileType.Long_Sword);
+                        map[items[z].getX, items[z].getY] = items[z];
+                    }
+                    if (rndweapon == 2)
+                    {
+                        items[z] = (Item)Create(TileType.Longbow);
+                        map[items[z].getX, items[z].getY] = items[z];
+                    }
+                    if (rndweapon == 3)
+                    {
+                        items[z] = (Item)Create(TileType.Rifle);
+                        map[items[z].getX, items[z].getY] = items[z];
+                    }
+
+                }
+                
             }
+            
             UpdateVision();
         }
 
@@ -237,7 +267,57 @@ namespace Task_1
                     }
                     return new Gold(ItemX, ItemY, tileType);
 
-                    case
+                case TileType.Dagger:
+                    
+                    
+                    int DaggerX = rnd.Next(0, mapwidth);
+                    int DaggerY = rnd.Next(0, mapheight);
+
+                    while (map[DaggerX, DaggerY].GetType() != typeof(EmptyTile))
+                    {
+                        DaggerX = rnd.Next(0, mapwidth);
+                        DaggerY = rnd.Next(0, mapheight);
+                    }
+                     return new MeleeWeapon(Types.Dagger,DaggerX,DaggerY);
+
+                case TileType.Long_Sword:
+
+                   
+                    int Long_swordX = rnd.Next(0, mapwidth);
+                    int Long_swordY = rnd.Next(0, mapheight);
+
+                    while (map[Long_swordX, Long_swordY].GetType() != typeof(EmptyTile))
+                    {
+                        Long_swordX = rnd.Next(0, mapwidth);
+                        Long_swordY = rnd.Next(0, mapheight);
+                    }
+                    return new MeleeWeapon(Types.Long_Sword, Long_swordX, Long_swordY);
+
+                case TileType.Longbow:
+
+                    
+                    int LongbowX = rnd.Next(0, mapwidth);
+                    int LongbowY = rnd.Next(0, mapheight);
+
+                    while (map[LongbowX, LongbowY].GetType() != typeof(EmptyTile))
+                    {
+                        LongbowX = rnd.Next(0, mapwidth);
+                        LongbowY = rnd.Next(0, mapheight);
+                    }
+                    return new RangedWeapon(Types.Longbow, LongbowX, LongbowY);
+
+                case TileType.Rifle:
+
+                    //int weapontype = rnd.Next(0, 2);
+                    int RifleX = rnd.Next(0, mapwidth);
+                    int RifleY = rnd.Next(0, mapheight);
+
+                    while (map[RifleX, RifleY].GetType() != typeof(EmptyTile))
+                    {
+                        RifleX = rnd.Next(0, mapwidth);
+                        RifleY = rnd.Next(0, mapheight);
+                    }
+                    return new RangedWeapon(Types.Rifle, RifleX, RifleY);
 
                 default:
                     return null;
