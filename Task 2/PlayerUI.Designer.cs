@@ -39,7 +39,6 @@ namespace Task_1
             this.EnemycomboBox = new System.Windows.Forms.ComboBox();
             this.bttnAttack = new System.Windows.Forms.Button();
             this.rchtTxtBxLog = new System.Windows.Forms.RichTextBox();
-            this.rchTxtBxEnemyStats = new System.Windows.Forms.RichTextBox();
             this.lblMap = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
@@ -125,7 +124,7 @@ namespace Task_1
             this.rchTxtStats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(228)))), ((int)(((byte)(204)))));
             this.rchTxtStats.Location = new System.Drawing.Point(12, 27);
             this.rchTxtStats.Name = "rchTxtStats";
-            this.rchTxtStats.Size = new System.Drawing.Size(300, 89);
+            this.rchTxtStats.Size = new System.Drawing.Size(300, 129);
             this.rchTxtStats.TabIndex = 1;
             this.rchTxtStats.Text = "";
             // 
@@ -134,10 +133,9 @@ namespace Task_1
             this.grpBxAttack.Controls.Add(this.EnemycomboBox);
             this.grpBxAttack.Controls.Add(this.bttnAttack);
             this.grpBxAttack.Controls.Add(this.rchtTxtBxLog);
-            this.grpBxAttack.Controls.Add(this.rchTxtBxEnemyStats);
-            this.grpBxAttack.Location = new System.Drawing.Point(6, 114);
+            this.grpBxAttack.Location = new System.Drawing.Point(6, 153);
             this.grpBxAttack.Name = "grpBxAttack";
-            this.grpBxAttack.Size = new System.Drawing.Size(312, 246);
+            this.grpBxAttack.Size = new System.Drawing.Size(312, 207);
             this.grpBxAttack.TabIndex = 0;
             this.grpBxAttack.TabStop = false;
             this.grpBxAttack.Text = "Attack";
@@ -156,7 +154,7 @@ namespace Task_1
             this.bttnAttack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(97)))), ((int)(((byte)(52)))));
             this.bttnAttack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.bttnAttack.ForeColor = System.Drawing.SystemColors.Window;
-            this.bttnAttack.Location = new System.Drawing.Point(6, 129);
+            this.bttnAttack.Location = new System.Drawing.Point(6, 73);
             this.bttnAttack.Name = "bttnAttack";
             this.bttnAttack.Size = new System.Drawing.Size(296, 29);
             this.bttnAttack.TabIndex = 4;
@@ -167,20 +165,11 @@ namespace Task_1
             // rchtTxtBxLog
             // 
             this.rchtTxtBxLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(228)))), ((int)(((byte)(204)))));
-            this.rchtTxtBxLog.Location = new System.Drawing.Point(6, 164);
+            this.rchtTxtBxLog.Location = new System.Drawing.Point(6, 109);
             this.rchtTxtBxLog.Name = "rchtTxtBxLog";
-            this.rchtTxtBxLog.Size = new System.Drawing.Size(300, 76);
+            this.rchtTxtBxLog.Size = new System.Drawing.Size(300, 92);
             this.rchtTxtBxLog.TabIndex = 3;
             this.rchtTxtBxLog.Text = "";
-            // 
-            // rchTxtBxEnemyStats
-            // 
-            this.rchTxtBxEnemyStats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(228)))), ((int)(((byte)(204)))));
-            this.rchTxtBxEnemyStats.Location = new System.Drawing.Point(6, 59);
-            this.rchTxtBxEnemyStats.Name = "rchTxtBxEnemyStats";
-            this.rchTxtBxEnemyStats.Size = new System.Drawing.Size(300, 64);
-            this.rchTxtBxEnemyStats.TabIndex = 2;
-            this.rchTxtBxEnemyStats.Text = "";
             // 
             // lblMap
             // 
@@ -203,7 +192,7 @@ namespace Task_1
             this.groupBox1.Size = new System.Drawing.Size(282, 366);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Shop";
             // 
             // button5
             // 
@@ -234,20 +223,20 @@ namespace Task_1
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(89, 502);
+            this.button1.Location = new System.Drawing.Point(84, 502);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.Size = new System.Drawing.Size(112, 39);
             this.button1.TabIndex = 7;
-            this.button1.Text = "button1";
+            this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(236, 502);
+            this.button2.Location = new System.Drawing.Point(204, 502);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
+            this.button2.Size = new System.Drawing.Size(112, 39);
             this.button2.TabIndex = 8;
-            this.button2.Text = "button2";
+            this.button2.Text = "Load";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // frmUI
@@ -287,7 +276,6 @@ namespace Task_1
         private System.Windows.Forms.GroupBox grpBxAttack;
         private System.Windows.Forms.Button bttnAttack;
         private System.Windows.Forms.RichTextBox rchtTxtBxLog;
-        private System.Windows.Forms.RichTextBox rchTxtBxEnemyStats;
         private System.Windows.Forms.Label lblMap;
         private System.Windows.Forms.ComboBox EnemycomboBox;
         private System.Windows.Forms.GroupBox groupBox1;

@@ -36,5 +36,6 @@ namespace Task_1
         Long_Sword,
         Rifle,
         Longbow
+
     }
 }

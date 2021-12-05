@@ -186,6 +186,11 @@ namespace Task_1
             }
             
         }
+
+        //private void Addweapon()
+        //{
+        //    for(int )
+        //} 
         
         //Q3.2 method looks in Items array if something exists at the given coordinates
         public Item GetItemAtPosition(int x, int y)

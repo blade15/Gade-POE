@@ -13,6 +13,8 @@ namespace Task_1
         protected int MaxHP;
         protected int Damage;
         protected int Purse;
+        protected Weapon weapon;
+
         public Tile [] tilevision = new Tile[4];
 
         //public accessor that gets the health
@@ -41,6 +43,12 @@ namespace Task_1
         {
             get { return Purse; }
             set { Purse = value; }
+        }
+
+        public Weapon getweapon
+        {
+            get { return weapon; }
+            set { weapon = value; }
         }
 
         public Character(int x, int y, TileType tile_type, char symbol, int hp,int maxhp, int damage,int purse): base(x, y,tile_type,symbol)
@@ -124,8 +132,23 @@ namespace Task_1
         //Q3.2 check item passed and if gold, add to character's treasure collection
         public void Pickup(Item i)
         {
-        Gold gold = (Gold)i;
-        Purse = Purse + gold.Getamount;  
+            if(i.getsymbol == '$')
+            {
+                Gold gold = (Gold)i;
+                Purse = Purse + gold.Getamount;
+            }
+            else
+            {
+                Equip((Weapon)i);
+            }
+            
+          
+        }
+
+        private void Equip(Weapon w)
+        {
+            Weapon Weapon = (Weapon)w;
+            weapon = Weapon;
         }
 
         public abstract movementEnum ReturnMove(movementEnum m);

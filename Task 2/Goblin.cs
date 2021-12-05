@@ -10,10 +10,8 @@ namespace Task_1
 
         public Goblin(int x, int y, TileType tile_type) : base(x, y, tile_type, 'G',10,10,1)
         {
-            //constructor that receives x and y positions and takes through to enemy class
-            //Parameters include
-            //Goblin = 10HP
-            //Goblin = 1 damage
+            getweapon = new MeleeWeapon(Types.Dagger);
+            getdamage = getdamage + getweapon.getDamage;
         }
         
         //overridden ReturnMove() method that does not use optional movement parameter
