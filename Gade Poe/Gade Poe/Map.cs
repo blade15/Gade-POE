@@ -8,7 +8,7 @@ namespace Task_1
 {
     class Map
     {
-        //Q4.1 2D map arrays
+        //2D map arrays
         private Tile[,] map;
         public Tile[,] GetMaps
         {
@@ -30,7 +30,7 @@ namespace Task_1
             set { enemies = value; }
         }
 
-        //Q3.1 items array that stores items that exist on map
+        //items array that stores items that exist on map
         public Item[] items;
         public Item[] GetItems
         {
@@ -72,7 +72,7 @@ namespace Task_1
             Player = (Hero)Create(TileType.Hero);
             map[Player.getX, Player.getY] = Player;
 
-            //Q3.1
+            //Q3.1 weapon drops
             for (int i = 0; i < enemies.Length; i++)
             {
                 int rndenemies = rnd.Next(0, 3);
@@ -191,7 +191,7 @@ namespace Task_1
 
 
 
-        //Q3.2 method looks in Items array if something exists at the given coordinates
+        //method looks in Items array if something exists at the given coordinates
         public Item GetItemAtPosition(int x, int y)
         {
             //set item to null in array
