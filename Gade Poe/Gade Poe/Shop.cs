@@ -4,10 +4,15 @@ using System.Text;
 
 namespace Task_1
 {
+    //Shop class
     class Shop
     {
+        //private member variables with no accessors
+        //3 by 3
         private Weapon[] weapons;
+        //randomise numbers
         private Random rnd;
+        //denote the buyer
         private Character buyer;
 
         //int x, int y, TileType tile_type, char symbol, int hp,int maxhp, int damage,int purse
@@ -22,6 +27,7 @@ namespace Task_1
             }
         }
 
+        //private method that randomises and returns weapon of choice
         private Weapon RandomWeapon()
         {
             int num = rnd.Next(4);
@@ -40,6 +46,7 @@ namespace Task_1
             }
         }
 
+        //public bool that returns true if buyer can afford
         public bool CanBuy(int num, int slot)
         {
             if (num >= weapons[slot].getCost)
@@ -52,6 +59,7 @@ namespace Task_1
             }
         }
 
+        //public void hat removes gold by cost subtraction
         public void Buy(int num, int slot)
         {
             num = num - weapons[slot].getCost;
@@ -64,6 +72,7 @@ namespace Task_1
             weapons[slot] = RandomWeapon();
         }
 
+        //public string that reads what leader buys
         public string DisplayWeapon(int num)
         {
             return "Buy " + weapons[num].ToString();
