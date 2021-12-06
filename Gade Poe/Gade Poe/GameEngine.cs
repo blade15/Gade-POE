@@ -9,8 +9,9 @@ namespace Task_1
 {
     class GameEngine
     {
-        //Q3.3 private map variable
+        //private map variable
         private Map game_map;
+        //Q2.5 private shop object
         private Shop shop;
         public Shop GetShop
         {
@@ -31,7 +32,7 @@ namespace Task_1
             shop = new Shop(game_map.GetPlayer);
         }
 
-        //Q3.3 Allows player to move a space if the move is valid
+        //Allows player to move a space if the move is valid
         //Players move one unit on the grid
         public void MovePlayer(movementEnum movement)
         {
@@ -60,7 +61,7 @@ namespace Task_1
 
         }
 
-        //Q3.3 All enemies move only when the player moves
+        //All enemies move only when the player moves
         public void MoveEnemies(movementEnum movement)
         {
             for (int i = 0; i < game_map.GetEnemies.Length; i++)
@@ -99,7 +100,7 @@ namespace Task_1
         }
 
         
-        //Q3.3 Enemies attack after player moves
+        //Enemies attack after player moves
         //Enemies attack when player attacks
         public void EnemyAttack()
         {
@@ -139,7 +140,7 @@ namespace Task_1
 
         }
 
-        //4.1 method used for the save function
+        //method used for the save function
         public static void Save(string maps, string hero)
         {
             var savemap = Directory.GetCurrentDirectory();
@@ -177,7 +178,7 @@ namespace Task_1
                 throw;
             }
         }
-        //4.2 method used for load funcrion
+        //method used for load funcrion
         public static string Load(string strFile)
         {
 
