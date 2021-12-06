@@ -4,12 +4,11 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.6 concrete hero subclass that inherits from Character
+    //concrete hero subclass that inherits from Character
     class Hero : Character
     {
         public Hero(int x, int y, TileType tile_type) : base(x, y, tile_type, 'H', 100, 100, 2, 0)
         {
-
             getweapon = new MeleeWeapon(Types.Barehands);
             getdamage = getdamage;
         }
@@ -17,7 +16,6 @@ namespace Task_1
         bool checkvalidmove(movementEnum charactermove)
         {
             bool valid = false;
-
             switch (charactermove)
             {
                 case movementEnum.Right:
@@ -49,7 +47,6 @@ namespace Task_1
                     }
                     break;
             }
-
             return valid;
         }
 
@@ -67,7 +64,7 @@ namespace Task_1
         //overridden to string to display stats
         public override string ToString()
         {
-            //Q3.2 Display the gold amount in the Stats display section
+            //Display the gold amount in the Stats display section
             return "Player Stats:" + '\n' + "HP: " + HP + "/ " + MaxHP + '\n' + "Current Weapon: " + getweapon.getWeapon_type + '\n' + "Weapon Range: " + getweapon.getRange + '\n' + "Weapon Damage: " + Damage + '\n' + "Weapon Durability: " + getweapon.getDurability + '\n' + "[" + X + "," + Y + "] " + getpurse + " Gold";
         }
     }
