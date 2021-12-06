@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.1 Creating class called "EmptyTileClass which inheritances from tile class"
+    //Creating class called "EmptyTileClass which inheritances from tile class"
     //Exists to indicate empty tile space
     class EmptyTile : Tile
     {
