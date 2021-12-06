@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.2 Cocrete class called Gold inherited from Item
+    //Cocrete class called Gold inherited from Item
     class Gold : Item
     {
         //private member variable for amount of gold represented through gold that is dropped
