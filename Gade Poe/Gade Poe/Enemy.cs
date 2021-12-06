@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.4 abstract enemy class that inherits from character
+    //abstract enemy class that inherits from character
     abstract class Enemy : Character
     {
         //random object used to randomise numbers
@@ -27,4 +27,5 @@ namespace Task_1
         }
     }
 }
-//Equipped: Leader (20/20HP) at [6, 1] with Longsword
+
+    //Equipped: Leader (20/20HP) at [6, 1] with Longsword
