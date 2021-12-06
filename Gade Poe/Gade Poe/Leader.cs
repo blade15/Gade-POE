@@ -4,8 +4,10 @@ using System.Text;
 
 namespace Task_1
 {
+    //Q2.4 subclass from Enemy called 'Leader'
     class Leader : Enemy
     {
+        //private tile that denotes the leader's target through get and set accessors
         private Tile Target;
 
         public Tile getTarget
@@ -20,6 +22,7 @@ namespace Task_1
             getdamage = getweapon.getDamage;
         }
 
+        //overridden method ReturnMove()
         public override movementEnum ReturnMove(movementEnum move = movementEnum.NoMovement)
         {
             int random_tile = rnd.Next(0, tilevision.Length);
@@ -29,6 +32,8 @@ namespace Task_1
             }
             switch (random_tile)
             {
+                //does not use optional movement parameter
+                //returns number related to character's movement enum
                 case 0:
                     return movementEnum.Up;
                 case 1:
