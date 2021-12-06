@@ -68,19 +68,21 @@ namespace Task_1
         {
             bool EnemyInRange = false;
 
-            foreach(Tile T in game_map.GetPlayer.tilevision)
+            for (int x = 0; x < game_map.GetPlayer.tilevision.Length; x++)
             {
-                if(T.getX == game_map.GetEnemies[Enemy].getX && (T.getY == game_map.GetEnemies[Enemy].getY))
+                if (game_map.GetPlayer.tilevision[x].getX == game_map.GetEnemies[Enemy].getX && (game_map.GetPlayer.tilevision[x].getY == game_map.GetEnemies[Enemy].getY))
                 {
                     EnemyInRange = true;
-                    break;
+                    
                 }
             }
-             
+            
+
             if (EnemyInRange)
             {
                 //enemy stats update after every attack or movement
                 game_map.GetPlayer.attack(game_map.GetEnemies[Enemy]);
+                
                 return "You did attack "+game_map.GetPlayer.getdamage+" damage to a "+game_map.GetEnemies[Enemy].GetType().Name
                 +" they now have " + game_map.GetEnemies[Enemy].gethp + " HP";
             }
@@ -88,6 +90,17 @@ namespace Task_1
             else
             {
                 return "Target was not in range";
+            }
+        }
+
+        public void deadcharacter(Character target)
+        {
+            if(target.isdead() == true)
+            {
+                if(target.GetType() == typeof(Leader))
+                {
+
+                }
             }
         }
 

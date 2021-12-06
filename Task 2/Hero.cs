@@ -11,7 +11,7 @@ namespace Task_1
         {
 
             getweapon = new MeleeWeapon(Types.Barehands);
-            getdamage = getdamage + getweapon.getDamage;
+            getdamage = getdamage;
         }
 
         bool checkvalidmove(movementEnum charactermove)

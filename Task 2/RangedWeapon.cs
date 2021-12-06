@@ -33,7 +33,7 @@ namespace Task_1
         }
         public override string ToString()
         {
-            return getWeapon_type;
+            return getWeapon_type + "cost: " + getCost;
         }
     }
 }

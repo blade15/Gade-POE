@@ -8,11 +8,10 @@ namespace Task_1
     //A new type of enemy
     class Mage : Enemy 
     {
-        public Mage(int x, int y, TileType tile_type) : base(x, y, tile_type, 'M', 5, 5, 5)
+        public Mage(int x, int y, TileType tile_type) : base(x, y, tile_type, 'M', 5, 5, 5,3)
         {
-             //constructor that receives x and y positions but takes variables through to Enemy class
-             //Mage = 5HP
-             //Mage = 5 damage
+            getweapon = new MeleeWeapon(Types.Barehands);
+            getdamage = getdamage;
         }
 
         //overridden method called "checkrange"

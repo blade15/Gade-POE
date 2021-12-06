@@ -12,7 +12,7 @@ namespace Task_1
 
         //constructor that receives x and y positions, enemys damage, starting HP
         //sends data of positions to character subclass through a constructor initialiser
-        public  Enemy(int x, int y,TileType tile_type, char symbol,int EnemyHP,int MaxEnemyHP, int dmg) : base(x, y, tile_type, symbol,EnemyHP,MaxEnemyHP,dmg,0)
+        public  Enemy(int x, int y,TileType tile_type, char symbol,int EnemyHP,int MaxEnemyHP, int dmg, int purse) : base(x, y, tile_type, symbol,EnemyHP,MaxEnemyHP,dmg,purse)
         {
             Damage = dmg;
             MaxHP = MaxEnemyHP;
@@ -22,9 +22,9 @@ namespace Task_1
         //overridden to string that uses enemy class and outputs "EnemyClassName at [X, Y] (Amount DMG)"
         public override string ToString()
         {
-            string output = GetType().Name+'\n'+ " at["+ X +","+ Y+"]  \n "+ HP+" HP \n"+"{"+ Damage+"}";
+            string output = GetType().Name+'\n'+ " at["+ X +","+ Y+"]  \n "+ HP+" HP \n"+"{"+ Damage+"}"+" with "+getweapon.getWeapon_type;
             return output;
         }
     }
 }
-//"Enemy class name at[" + X.ToString + "," + Y.ToString + "](Amunt of " + Damage + ")"
+//Equipped: Leader (20/20HP) at [6, 1] with Longsword

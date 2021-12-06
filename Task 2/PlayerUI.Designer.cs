@@ -122,9 +122,9 @@ namespace Task_1
             // rchTxtStats
             // 
             this.rchTxtStats.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(228)))), ((int)(((byte)(204)))));
-            this.rchTxtStats.Location = new System.Drawing.Point(12, 27);
+            this.rchTxtStats.Location = new System.Drawing.Point(12, 16);
             this.rchTxtStats.Name = "rchTxtStats";
-            this.rchTxtStats.Size = new System.Drawing.Size(300, 129);
+            this.rchTxtStats.Size = new System.Drawing.Size(300, 140);
             this.rchTxtStats.TabIndex = 1;
             this.rchTxtStats.Text = "";
             // 

@@ -72,6 +72,7 @@ namespace Task_1
             
         }
 
+        
         //Public bool called "IsDead"
         public bool isdead()
         {
@@ -131,24 +132,52 @@ namespace Task_1
 
         //Q3.2 check item passed and if gold, add to character's treasure collection
         public void Pickup(Item i)
-        {
-            if(i.getsymbol == '$')
+        {  
+            if(i.GetType() == typeof(Gold))
             {
                 Gold gold = (Gold)i;
                 Purse = Purse + gold.Getamount;
             }
-            if(i.getsymbol == 'W')
+            else
             {
                 Equip((Weapon)i);
             }
-            
-          
+        
         }
 
         private void Equip(Weapon w)
         {
-            Weapon Weapon = (Weapon)w;
-            weapon = Weapon;
+           if(w.GetType() == typeof(MeleeWeapon))
+            {
+                if(w.getWeapon_type == "dagger")
+                {
+                    weapon = new MeleeWeapon(Types.Dagger);
+                    Damage = weapon.getDamage;
+                }
+                else
+                {
+                    weapon = new MeleeWeapon(Types.Long_Sword);
+                    Damage = weapon.getDamage;
+                }
+                
+            }
+
+            if (w.GetType() == typeof(RangedWeapon))
+            {
+                if (w.getWeapon_type == "Rifle")
+                {
+                    weapon = new RangedWeapon(Types.Rifle);
+                    Damage = weapon.getDamage;
+                }
+                else
+                {
+                    weapon = new RangedWeapon(Types.Longbow);
+                    Damage = weapon.getDamage;
+                }
+
+            }
+
+
         }
 
         public abstract movementEnum ReturnMove(movementEnum m);

@@ -26,7 +26,7 @@ namespace Task_1
         {
             lblMap.Text = game.ToString();
             rchTxtStats.Text = game.GetMap.GetPlayer.ToString();
-            fillEnemyBox();
+                      fillEnemyBox();
             //EnemycomboBox.Text = game.GetMap.GetEnemies[0];
         }
 

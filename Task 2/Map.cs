@@ -144,7 +144,7 @@ namespace Task_1
             {
                 map[enemies[i].getX, enemies[i].getY] = enemies[i];
             }
-            Addgold();
+            Additem();
             for (int i = 0; i < items.Length; i++)
             {
                 map[items[i].getX, items[i].getY] = items[i];
@@ -175,7 +175,7 @@ namespace Task_1
             }
         }
 
-        private void Addgold()
+        private void Additem()
         {
             for (int i = 0; i < items.Length; i++)
             {
@@ -187,10 +187,7 @@ namespace Task_1
             
         }
 
-        //private void Addweapon()
-        //{
-        //    for(int )
-        //} 
+         
         
         //Q3.2 method looks in Items array if something exists at the given coordinates
         public Item GetItemAtPosition(int x, int y)
@@ -199,7 +196,7 @@ namespace Task_1
             Item output = null;
             for (int i = 0; i < items.Length; i++)
             {
-                if(x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Gold || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Dagger || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Longbow || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Long_Sword || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Rifle)
+                if(x == items[i].getX && y == items[i].getY )/*&& items[i].GetTileType == TileType.Gold || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Dagger || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Longbow || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Long_Sword || x == items[i].getX && y == items[i].getY && items[i].GetTileType == TileType.Rifle)*/
                 {
                     output = items[i];
                     items[i] = null;

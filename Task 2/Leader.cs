@@ -14,10 +14,10 @@ namespace Task_1
             set { Target = value; }
         }
 
-        public Leader(int x,int y, TileType tile_type) : base(x, y, tile_type, 'L', 20, 20, 2)
+        public Leader(int x,int y, TileType tile_type) : base(x, y, tile_type, 'L', 20, 20, 2,2)
         {
             getweapon = new MeleeWeapon(Types.Long_Sword);
-            getdamage = getdamage + getweapon.getDamage;
+            getdamage = getweapon.getDamage;
         }
 
         public override movementEnum ReturnMove(movementEnum move = movementEnum.NoMovement)

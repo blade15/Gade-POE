@@ -8,10 +8,10 @@ namespace Task_1
     class Goblin : Enemy
     {
 
-        public Goblin(int x, int y, TileType tile_type) : base(x, y, tile_type, 'G',10,10,1)
+        public Goblin(int x, int y, TileType tile_type) : base(x, y, tile_type, 'G',10,10,1,1)
         {
-            getweapon = new MeleeWeapon(Types.Dagger);
-            getdamage = getdamage + getweapon.getDamage;
+            getweapon = new MeleeWeapon(Types.Long_Sword);
+            getdamage = getweapon.getDamage;
         }
         
         //overridden ReturnMove() method that does not use optional movement parameter
