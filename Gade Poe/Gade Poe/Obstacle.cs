@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.1 Creating subclass called "ObstacleClass" which inheritances from tile class"
+    //Creating subclass called "ObstacleClass" which inheritances from tile class"
     //Exists to indicate empty tile space
     class Obstacle : Tile
     {
