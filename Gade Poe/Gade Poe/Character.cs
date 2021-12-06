@@ -82,15 +82,18 @@ namespace Task_1
             else return false;
         }
 
+        //Q3.4 character can now loot enemies they kill
         public void Loot(Character target)
         {
             if (target.isdead())
             {
+                //equip dead enemy's weapon (if new)
                 if ((weapon.getWeapon_type == "Bare Hands") && GetTileType !=TileType.mage )
                 {
                     weapon = target.weapon;
                     //Purse = Purse + target.Purse;
                 }
+                //add dead characters gold to gold total
                 Purse = Purse + target.Purse;
             }
         }
