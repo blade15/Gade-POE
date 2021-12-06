@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.3 concrete Mage subclass
+    //concrete Mage subclass
     //A new type of enemy
     class Mage : Enemy
     {
