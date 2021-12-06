@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.5 concrete Goblin class that inherits from Enemy
+    //concrete Goblin class that inherits from Enemy
     class Goblin : Enemy
     {
 
