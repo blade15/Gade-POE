@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Task_1
 {
-    //Q2.2 Creating abstract base class called "Character"
+    //Creating abstract base class called "Character"
     //Inherits from "Tile"
     abstract class Character : Tile
     {
@@ -13,6 +13,7 @@ namespace Task_1
         protected int MaxHP;
         protected int Damage;
         protected int Purse;
+        //Q3.2 protected weapon object
         protected Weapon weapon;
 
         public Tile[] tilevision = new Tile[4];
@@ -60,7 +61,7 @@ namespace Task_1
             Purse = purse;
         }
 
-        //Q2.3 Adding in methods to define generic implementations for the character to use
+        //Adding in methods to define generic implementations for the character to use
         //Public virtual void called "Attack"
         public virtual void attack(Character Target)
         {
@@ -69,9 +70,7 @@ namespace Task_1
             {
                 Target.HP = Target.HP - Damage;
             }
-
         }
-
 
         //Public bool called "IsDead"
         public bool isdead()
@@ -95,7 +94,6 @@ namespace Task_1
                 Purse = Purse + target.Purse;
             }
         }
-
 
         //Public virtual bool
         public virtual bool checkrange(Character Target)
@@ -142,7 +140,7 @@ namespace Task_1
             }
         }
 
-        //Q3.2 check item passed and if gold, add to character's treasure collection
+        //check item passed and if gold, add to character's treasure collection
         public void Pickup(Item i)
         {
             if (i.GetType() == typeof(Gold))
@@ -157,6 +155,7 @@ namespace Task_1
 
         }
 
+        //Q3.1 pick up weapons
         private void Equip(Weapon w)
         {
             if (w.GetType() == typeof(MeleeWeapon))
@@ -186,14 +185,10 @@ namespace Task_1
                     weapon = new RangedWeapon(Types.Longbow);
                     Damage = weapon.getDamage;
                 }
-
             }
-
-
         }
 
         public abstract movementEnum ReturnMove(movementEnum m);
-
         public abstract override string ToString();
     }
 }
