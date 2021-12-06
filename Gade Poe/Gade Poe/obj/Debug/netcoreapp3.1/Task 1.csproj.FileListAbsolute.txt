@@ -1,0 +1,110 @@
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.csprojAssemblyReference.cache
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.csproj.GenerateResource.cache
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfoInputs.cache
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfo.cs
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
+D:\we work here\GADS_Task-2\Task 1\bin\Debug\netcoreapp3.1\Task 1.exe
+D:\we work here\GADS_Task-2\Task 1\bin\Debug\netcoreapp3.1\Task 1.deps.json
+D:\we work here\GADS_Task-2\Task 1\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+D:\we work here\GADS_Task-2\Task 1\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+D:\we work here\GADS_Task-2\Task 1\bin\Debug\netcoreapp3.1\Task 1.dll
+D:\we work here\GADS_Task-2\Task 1\bin\Debug\netcoreapp3.1\Task 1.pdb
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.dll
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.pdb
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache
+D:\we work here\GADS_Task-2\Task 1\obj\Debug\netcoreapp3.1\Task_1.PlayerUI.resources
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\bin\Debug\netcoreapp3.1\Task 1.exe
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\bin\Debug\netcoreapp3.1\Task 1.deps.json
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\bin\Debug\netcoreapp3.1\Task 1.dll
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\bin\Debug\netcoreapp3.1\Task 1.pdb
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.csprojAssemblyReference.cache
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task_1.PlayerUI.resources
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.GenerateResource.cache
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfoInputs.cache
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfo.cs
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.dll
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.pdb
+C:\School work\1 UNIVERSITY\2nd Semester\GADE\correct\Task 2\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.csprojAssemblyReference.cache
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task_1.frmUI.resources
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task_1.Properties.Resources.resources
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.GenerateResource.cache
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfoInputs.cache
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfo.cs
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\bin\Debug\netcoreapp3.1\Task 1.exe
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\bin\Debug\netcoreapp3.1\Task 1.deps.json
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\bin\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\bin\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\GADS_Task-2\Task 2\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.csprojAssemblyReference.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task_1.frmUI.resources
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task_1.Properties.Resources.resources
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.GenerateResource.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfoInputs.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfo.cs
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.exe
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.deps.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\bin\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Task 2\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.exe
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.deps.json
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.csprojAssemblyReference.cache
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task_1.frmUI.resources
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task_1.Properties.Resources.resources
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.GenerateResource.cache
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfoInputs.cache
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfo.cs
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\mia\OneDrive\Desktop\2 HOME\Project Miracle\GADE\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache
+D:\final\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.exe
+D:\final\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.deps.json
+D:\final\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+D:\final\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+D:\final\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.dll
+D:\final\Task_2 (2)\Task 2\bin\Debug\netcoreapp3.1\Task 1.pdb
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.csprojAssemblyReference.cache
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task_1.frmUI.resources
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task_1.Properties.Resources.resources
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.GenerateResource.cache
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfoInputs.cache
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfo.cs
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.dll
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.pdb
+D:\final\Task_2 (2)\Task 2\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\bin\Debug\netcoreapp3.1\Task 1.exe
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\bin\Debug\netcoreapp3.1\Task 1.deps.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\bin\Debug\netcoreapp3.1\Task 1.runtimeconfig.dev.json
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\bin\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\bin\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.csprojAssemblyReference.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task_1.frmUI.resources
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task_1.Properties.Resources.resources
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.csproj.GenerateResource.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfoInputs.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.AssemblyInfo.cs
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.csproj.CoreCompileInputs.cache
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.dll
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.pdb
+C:\Users\Olwethu\Documents\GitHub\Gade-POE\Gade Poe\Gade Poe\obj\Debug\netcoreapp3.1\Task 1.genruntimeconfig.cache
