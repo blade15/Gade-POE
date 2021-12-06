@@ -4,14 +4,17 @@ using System.Text;
 
 namespace Task_1
 {
+    //Q2.1 Weapon abstract class inheriting from Item
     abstract class Weapon : Item
     {
+        //protected member variables
         protected int Damage;
         protected int Range;
         protected int Durability;
         protected int Cost;
         protected string weapon_type;
 
+        //public accessors
         public int getDamage
         {
             get { return Damage; }
